@@ -1,0 +1,67 @@
+.hero-section {
+    background: url(../images/ocean.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.hero-section .h1 {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.features-icons {
+    min-height: 70vh !important;
+}
+
+.features-icons-item {
+    font-size: 70px !important;
+}
+
+.showcase .showcase-img {
+    min-height: 30rem;
+    background-size: cover;
+}
+
+.showcase-img1 {
+    background: url(../images/phone.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.showcase-img2 {
+    background: url(../images/code.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.showcase-img3 {
+    background: url(../images/laptop.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.showcase-div {
+    min-height: 80vh;
+}
+
+.showcase-text .text-container {
+    padding: 7rem;
+}
+
+@media screen and (max-width: 520px) {
+    .showcase-text .text-container {
+        padding: 3rem;
+    }
+    
+}
+
+.testimonials {
+    padding: 7rem 0;
+}
+
+.sign-up {
+    background: url(../images/ocean.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 7rem 0;
+}
+
+.footer {
+    min-height: 20vh;
+    padding: 4rem 0;
+}
